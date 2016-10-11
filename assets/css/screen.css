@@ -1,0 +1,262 @@
+/*
+Title: Colm CSS
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+#fullbg
+{
+	background: url('../images/love_bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #000;
+}
+
+
+
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Droid Sans',sans-serif;
+	line-height: 1.5em;
+}
+
+/* ---( common elements )------------------------------- */
+
+p 
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+p img
+{
+	border: 0px;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+
+
+.clearboth
+{
+	clear: both;
+}
+
+/* ---( wrapper )------------------------------- */
+
+
+#wrap 
+{
+	position: relative;
+	margin: 50px auto;
+	padding: 40px;
+	text-align: left;
+	width: 590px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius:10px;
+} 
+
+#wrap img#logo
+{
+	display:block;
+	margin:0 auto 20px;
+}
+
+
+#wrap img#cover
+{
+	display:block;
+	margin:0 auto 20px;
+	border:1px solid #555;
+}
+
+
+#wrap iframe#sc
+{
+	display:block;
+	margin:0 auto 20px;
+	border:1px solid #555;
+}
+
+#wrap h1
+{
+	color: #FFFFFF;
+	font-family: 'Droid Sans',sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 500px;
+}	
+
+#wrap h1 strong
+{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:700;
+}
+
+#wrap h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+#wrap p {
+	text-align: center;
+}
+		
+table
+{
+	margin:20px auto;
+	display:block;
+	color:#FFF;
+	font-family: 'Droid Sans',sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	border-top: 1px solid #555555;
+}
+
+table tr
+{
+	height:35px;
+	line-height:18px;
+
+}
+
+table tr td
+{
+	border-bottom: 1px solid #555555;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right:20px;
+	
+}
+
+.tags-social
+{
+	display: block;
+	height: 30px;
+	margin: 0 auto;
+	width: 520px;
+}
+
+.tags-social ul
+{
+	margin-top:5px;
+}
+
+.tags-social ul li
+{
+	float:left;
+	display:inline;
+	margin-right: 10px;
+	margin-left: 2px;
+}
+
+
+.tags-social ul li a {
+	height: 26px;
+	width: 26px;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+.tags-social ul li a.facebook
+{
+	background: transparent url('../images/social-sprites.png') no-repeat 0 0;
+}
+
+
+.tags-social ul li a.facebook:hover
+{
+	opacity:0.5;
+}
+
+
+.tags-social ul li a.twitter
+{
+	background: transparent url('../images/social-sprites.png') no-repeat -0px -26px;
+}
+
+
+.tags-social ul li a.twitter:hover
+{
+	opacity:0.5;
+}
+
+.social-buttons {
+    float:right;
+    
+}
+.social-buttons ul li {
+	float:left;
+	display:inline;
+	margin-right: 10px;
+	margin-left: 2px;   
+}

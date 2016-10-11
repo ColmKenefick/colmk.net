@@ -1,0 +1,100 @@
+body
+{
+	color: #2D3142;
+	font-size: 14px;
+}
+
+.jumbotron 
+{
+    background-color: #2D3142;
+    color: #FFFFFF;
+}
+
+/* a links */
+
+a
+{
+	color: #B0D7FF;
+}
+
+a:hover,
+a:active,
+a:focus
+{
+	color: #D8D5DB;
+	text-decoration: none;
+}
+
+.view-site
+{
+	border: 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.view-site:hover,
+.view-site:active,
+.view-site:focus
+{
+	text-decoration: none;
+	outline: none;
+}
+
+footer a
+{
+	color: #2D3142;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active
+{
+	color: #ADACB5;
+	text-decoration: none;
+}
+
+/* lightbox: ; */
+
+.lb-outerContainer
+{
+    border-radius: 0;
+}
+
+/* social */
+
+.social-media li
+{
+    float:left;
+    display:inline;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+
+.social-media li a {
+    height: 26px;
+    width: 26px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social-media  li a.facebook
+{
+    background: transparent url('../../assets/images/social-sprites.png') no-repeat 0 0;
+}
+
+.social-media li a.facebook:hover
+{
+    opacity:0.5;
+}
+
+.social-media li a.twitter
+{
+    background: transparent url('../../assets/images/social-sprites.png') no-repeat -0px -26px;
+}
+
+.social-media li a.twitter:hover
+{
+    opacity:0.5;
+}
